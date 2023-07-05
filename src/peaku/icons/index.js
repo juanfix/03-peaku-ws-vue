@@ -1,0 +1,13 @@
+export { default as Calendar } from './Calendar.vue';
+export { default as Check } from './Check.vue';
+export { default as Check2 } from './Check2.vue';
+export { default as Clock } from './Clock.vue';
+export { default as Company } from './Company.vue';
+export { default as Heart } from './Heart.vue';
+export { default as Joystick } from './Joystick.vue';
+export { default as Location } from './Location.vue';
+export { default as Padlock } from './Padlock.vue';
+export { default as Salary } from './Salary.vue';
+export { default as Smile } from './Smile.vue';
+export { default as Vacancy } from './Vacancy.vue';
+export { default as World } from './World.vue';
