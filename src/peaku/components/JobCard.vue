@@ -1,4 +1,5 @@
 <script setup>
+import moment from 'moment';
 
 import { BenefitTag, SkillTag } from '../components/';
 import { Calendar, Company, Location, Salary, Vacancy } from '../icons/';
@@ -55,7 +56,7 @@ const {
                         </div>
                         <div class="text-capitalize col d-flex align-items-center">
                             <Calendar class="me-2" />
-                            <span>{{ created_at }}</span>
+                            <span>{{ moment(created_at).fromNow()  }}</span>
                         </div>
                         <div class="text-capitalize col d-flex align-items-center">
                             <BenefitTag v-for="(benefit, index) in benefits" :key="index" :benefitData="benefit" />
