@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="me-2 px-2 skill-tag border border-dark text-dark text-capitalize">
+    <div class="me-2 px-2 skill-tag border text-light text-capitalize">
         {{ skillData }}
     </div>
 </template>

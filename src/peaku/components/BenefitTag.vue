@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <span class="me-1 px-2 py-1 skill-tag text-truncate border border-dark text-dark text-capitalize hovertext" :title="benefitData">
+    <span class="me-1 px-2 py-1 skill-tag text-truncate border border-light text-light text-capitalize hovertext" :title="benefitData">
         <Calendar v-if="benefitData === 'Flexibilidad de horarios'" class="d-flex justify-content-center" />
         <Check v-else-if="benefitData === 'Capacitaciones'" class="d-flex justify-content-center" />
         <Check2 v-else-if="benefitData === 'Certificaciones'" class="d-flex justify-content-center" />

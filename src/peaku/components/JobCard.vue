@@ -28,7 +28,7 @@ const {
                 <div class="col-9 col-md-11">
                     <div class="row align-items-center">
                         <div class="col mb-2">
-                            <a :href="job_url" class="text-dark stretched-link d-inline d-md-inline-flex" target="_blank">
+                            <a :href="job_url" class="text-light stretched-link d-inline d-md-inline-flex" target="_blank">
                                 <h5 class="me-3 mb-0">{{ title }}</h5>
                                 <section class="pl-md-2 d-inline d-md-inline-flex align-items-center text-truncate">
                                     <SkillTag v-for="(skill, index) in skillsRequired" :key="index" :skillData="skill" />
@@ -72,7 +72,7 @@ const {
         text-decoration: none;
     }
     .border{
-        border-color: #383D3F;
+        border-color: #262d2f;
     }
 
     .job-card {
@@ -80,9 +80,9 @@ const {
     }
 
     .job-card:hover{
-        -webkit-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.38);
-        -moz-box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.38);
-        box-shadow: 1px 4px 4px 1px rgba(0,0,0,0.38);
+        -webkit-box-shadow: 1px 4px 4px 1px rgba(157, 121, 121, 0.38);
+        -moz-box-shadow: 1px 4px 4px 1px rgba(157, 121, 121, 0.38);
+        box-shadow: 1px 4px 4px 1px rgba(157, 121, 121, 0.38);
     }
 
     .secondary-info{

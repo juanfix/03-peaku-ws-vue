@@ -16,7 +16,7 @@ La idea es replicar lo mejor posible las tarjetas de muestra.
 
 ### Ver Demo
 
-Puedes ver el funcionamiento del proyecto en [Vercel](https://peaku-ws-frontend.vercel.app/)
+Puedes ver el funcionamiento del proyecto en [Netlify](https://peaku-ws-vue.netlify.app/)
 
 ## Servidor de desarrollo
 
